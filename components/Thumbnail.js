@@ -4,7 +4,7 @@ import { ThumbUpIcon } from '@heroicons/react/outline'
 import PopularityBar from './PopularityBar'
 import Link from 'next/link'
 
-export default function Thumbnail = ({result}) => {
+export default function Thumbnail({result}){
     const BASE_URL ="https://image.tmdb.org/t/p/original/"
   return (
     <Link href={'/moviepage/'+result.id}>
