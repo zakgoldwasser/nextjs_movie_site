@@ -10,7 +10,7 @@ export default function MoviePage({movie,cast}) {
     <Header/>
     <div className='flex justify-center'>
     <div className='w-1/2 mt-10 justify-center'>
-        <h1 className='font-bold text-2xl text-center'>The TMDB API doesn't have enough info to display this movie.</h1>
+        <h1 className='font-bold text-2xl text-center'>The TMDB API doesn&apos;t have enough info to display this movie.</h1>
         <p className='text-center'>Please return Home to select another movie.</p>
         </div>
     </div>
