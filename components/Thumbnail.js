@@ -8,7 +8,7 @@ export default function Thumbnail({result}){
     const BASE_URL ="https://image.tmdb.org/t/p/original/"
   return (
     <Link href={'/moviepage/'+result.id}>
-    <div ref={ref} className='p-2 group cursor-pointer transition duration-200
+    <div className='p-2 group cursor-pointer transition duration-200
      ease-in-out transform hover:z-50'>
          <div style={{height:'auto'}} className='position: relative z-10'>
          <div>
